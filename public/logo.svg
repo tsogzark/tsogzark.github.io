@@ -1,0 +1,12 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景圆形 -->
+  <circle cx="100" cy="100" r="100" fill="white" />
+  
+  <!-- 字母 T 和 O -->
+  <text x="50" y="90" font-family="Arial" font-size="70" font-weight="bold" fill="black">T</text>
+  <text x="110" y="90" font-family="Arial" font-size="70" font-weight="bold" fill="black">O</text>
+  
+  <!-- 字母 Z -->
+  <text x="50" y="150" font-family="Arial" font-size="70" font-weight="bold" fill="black">Z</text>
+  <text x="110" y="150" font-family="Arial" font-size="70" font-weight="bold" fill="black">K</text>
+</svg>

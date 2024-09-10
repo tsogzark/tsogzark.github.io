@@ -1,3 +1,5 @@
+import Posts from "./Posts"
+
 function App() {
   return (
     <div style={{
@@ -5,6 +7,7 @@ function App() {
         justifyContent: 'center',
     }}>
         Welcome to tsogzark.github.io!
+        <Posts/>
     </div>
   )
 }

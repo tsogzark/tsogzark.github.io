@@ -5,16 +5,22 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "generate-config": "node generate-config.js",
+    "build": "npm run generate-config && tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeplay": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^6.1.1",
+    "github-markdown-css": "^5.6.1",
+    "gray-matter": "^4.0.3",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-markdown": "^9.0.1",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",

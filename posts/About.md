@@ -38,7 +38,7 @@ dotnet publish -c Release -r win-x64 --self-contained -o ./output
 # Hello, World!
 ```
 
-> -c Release：指定构建配置为 Release。
-> -r win-x64：指定目标运行时为 Windows 64 位。
-> --self-contained：生成自包含的可执行文件，这样在目标机器上不需要安装 .NET 运行时。
-> -o 参数指定输出目录。
+> -c Release：指定构建配置为 Release。  
+> -r win-x64：指定目标运行时为 Windows 64 位。  
+> --self-contained：生成自包含的可执行文件，这样在目标机器上不需要安装 .NET 运行时。  
+> -o 参数指定输出目录。  
